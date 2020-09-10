@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  background-color: lightskyblue;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.header__leftLogo {
+  object-fit: contain;
+}
+.header__leftLink {
+  margin-left: 40px;
+  font-size: 18px;
+  font-style: inherit;
+}
+.header__leftLink:hover {
+  border: 1px solid #333;
+  padding: 3px;
+  box-shadow: 12px;
+}
+.header__right {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+.header__leftLink {
+  text-decoration: none;
+  color: #333;
+  font-style: oblique;
+}
+.header__rightCart :hover {
+  box-shadow: 12px;
+  cursor: pointer;
+}

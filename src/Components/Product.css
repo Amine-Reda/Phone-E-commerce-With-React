@@ -1,0 +1,18 @@
+.product {
+  border: 2px solid lightskyblue;
+}
+.product__image {
+  height: 250px;
+}
+.product__detail {
+  display: flex;
+  margin: 10px;
+}
+
+.product__detail > h2 {
+  font-size: 18px;
+}
+
+.product__detailPrice {
+  margin-left: 60px;
+}
