@@ -1,8 +1,13 @@
 .listProducts {
-  display: block;
   margin-top: 60px;
 }
 
-.Product{
-  ;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
 }
