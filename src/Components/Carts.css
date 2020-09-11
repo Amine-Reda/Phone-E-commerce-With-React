@@ -7,3 +7,10 @@
   display: flex;
   align-items: center;
 }
+.carts h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: xx-large;
+  font-style: oblique;
+  color: darkblue;
+}

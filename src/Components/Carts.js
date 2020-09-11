@@ -8,8 +8,10 @@ function Carts() {
 
   return (
     <div className="carts">
+      <h1>Cart</h1>
+
       {carts.map((c) => (
-        <div className="cart">
+        <div key={c.title} className="cart">
           <Image
             className="product__image"
             src={require(`../img/${c.img}`)}
