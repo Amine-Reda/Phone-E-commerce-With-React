@@ -7,7 +7,7 @@ function ListProducts() {
   return (
     <div className="listProducts">
       <Container fluid="md">
-        <Row row justify-content-between>
+        <Row>
           <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[0].title}

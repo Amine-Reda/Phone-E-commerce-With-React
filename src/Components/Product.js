@@ -2,8 +2,18 @@ import React from "react";
 import "./Product.css";
 import { Image, Button } from "react-bootstrap";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
-
+import { useStateValue } from "../StateProvider";
 function Product({ img, title, price }) {
+  const [{ cart }, dispatch] = useStateValue();
+
+  const addToCart = () => {
+    dispatch({
+      type: "ADD TO CART",
+      item: { img: img, title: title, price: price },
+    });
+    console.log(cart);
+  };
+
   return (
     <div className="product">
       <Image
@@ -11,7 +21,7 @@ function Product({ img, title, price }) {
         src={require(`../img/${img}`)}
         alt={title}
       />
-      <Button className="product__addButton">
+      <Button onClick={addToCart} className="product__addButton">
         <AddShoppingCartIcon />
         Add to Cart
       </Button>
