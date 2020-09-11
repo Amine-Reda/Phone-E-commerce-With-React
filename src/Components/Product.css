@@ -1,6 +1,9 @@
 .product {
-  border: 2px solid lightskyblue;
   width: 250px;
+}
+
+.product:hover {
+  background-color: lightcyan;
 }
 .product__image {
   height: 250px;
@@ -16,4 +19,19 @@
 
 .product__detailPrice {
   margin-left: 30px;
+}
+.product__addButton {
+  background-color: darkgoldenrod;
+  margin-left: 160px;
+  border: none;
+  height: 35px;
+  display: flex;
+  opacity: 0;
+  align-items: center;
+}
+
+.product:hover button {
+  cursor: pointer;
+  box-shadow: darkcyan 50px;
+  opacity: 1;
 }

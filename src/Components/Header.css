@@ -28,12 +28,17 @@
   margin-right: 50px;
   align-items: center;
 }
+
 .header__leftLink {
   text-decoration: none;
   color: #333;
+
   font-style: oblique;
 }
 .header__rightCart :hover {
   box-shadow: 12px;
   cursor: pointer;
+}
+.header__rightCart {
+  background-color: darkgoldenrod;
 }

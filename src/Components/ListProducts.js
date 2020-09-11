@@ -6,102 +6,93 @@ import { storeProducts } from "../data";
 function ListProducts() {
   return (
     <div className="listProducts">
-      <Container>
-        <Row>
-          <Col md={1} xs={1} lg={1}></Col>
-          <Col md={6} xs={8} lg={2}>
+      <Container fluid="md">
+        <Row row justify-content-between>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[0].title}
               price={storeProducts[0].price}
               img={storeProducts[0].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[1].title}
               price={storeProducts[1].price}
               img={storeProducts[1].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[2].title}
               price={storeProducts[2].price}
               img={storeProducts[2].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[3].title}
               price={storeProducts[3].price}
               img={storeProducts[3].img}
             />
           </Col>
-          <Col md={1} xs={1} lg={1}></Col>
-        </Row>
-        <Row>
-          <Col md={1} xs={1} lg={1}></Col>
-          <Col md={6} xs={8} lg={2}>
+
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[4].title}
               price={storeProducts[4].price}
               img={storeProducts[4].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[5].title}
               price={storeProducts[5].price}
               img={storeProducts[5].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[6].title}
               price={storeProducts[6].price}
               img={storeProducts[6].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[7].title}
               price={storeProducts[7].price}
               img={storeProducts[7].img}
             />
           </Col>
-          <Col md={1} xs={1} lg={1}></Col>
-        </Row>
-        <Row>
-          <Col md={1} xs={1} lg={1}></Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[0].title}
               price={storeProducts[0].price}
               img={storeProducts[0].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[1].title}
               price={storeProducts[1].price}
               img={storeProducts[1].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[2].title}
               price={storeProducts[2].price}
               img={storeProducts[2].img}
             />
           </Col>
-          <Col md={6} xs={8} lg={2}>
+          <Col md={6} sm={8} lg={2}>
             <Product
               title={storeProducts[3].title}
               price={storeProducts[3].price}
               img={storeProducts[3].img}
             />
           </Col>
-          <Col md={1} xs={1} lg={1}></Col>
         </Row>
       </Container>
     </div>

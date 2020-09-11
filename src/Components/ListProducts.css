@@ -1,7 +1,6 @@
 .listProducts {
   margin-top: 60px;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -9,5 +8,5 @@
 }
 
 .col {
-  flex: 1;
+  border: 20px solid #fff;
 }
