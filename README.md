@@ -1,3 +1,12 @@
+# Phone-E-commenrce-web-site with React.js 
+
+### ----> [Live Site](https://adoring-shirley-0953f5.netlify.app/)
+
+![AmazonClone](assets/image1.png)
+
+![AmazonClone](assets/image2.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
