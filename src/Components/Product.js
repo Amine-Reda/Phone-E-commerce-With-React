@@ -3,15 +3,14 @@ import "./Product.css";
 import { Image, Button } from "react-bootstrap";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 import { useStateValue } from "../StateProvider";
-function Product({ img, title, price }) {
+function Product({ id, img, title, price }) {
   const [{ carts }, dispatch] = useStateValue();
 
   const addToCart = () => {
     dispatch({
       type: "ADD TO CART",
-      item: { img: img, title: title, price: price },
+      item: { img: img, title: title, price: price, id: id },
     });
-    console.log(carts);
   };
 
   return (
